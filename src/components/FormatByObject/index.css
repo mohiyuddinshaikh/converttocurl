@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box {
+    width: 48%;
+}
+
+.result-box {
+    width: 48%;
+    height: 45%;
+    background-color: #f7f7f7;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.curl-wrapper {
+    white-space: pre-wrap;
+    font-family: monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
